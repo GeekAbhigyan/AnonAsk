@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Technologies uses 
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Prisma](https://www.prisma.io/)
+- [Vercel](https://vercel.com/)
+- [GitHub](https://github.com/)
+- [Git](https://git-scm.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/)
+- [ZodLibrary](https://github.com/colinhacks/zod) -> for schema validation using zod
+- [mongoose](https://mongoosejs.com/)

@@ -5,7 +5,7 @@ import dbConnect from '@/lib/dbConnect';
 import UserModel from '@/model/User';
 
 export const authOptions: NextAuthOptions = {
-  providers: [
+   providers: [
     CredentialsProvider({
       id: 'credentials',
       name: 'Credentials',
