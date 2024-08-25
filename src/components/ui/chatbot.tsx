@@ -9,9 +9,9 @@ interface Message {
   isUser: boolean
 }
 
-export default function Component() {
+export default function ChatBot() {
   const [messages, setMessages] = useState<Message[]>([
-    { text: "Hello! How can I assist you today?", isUser: false }
+    { text: "Hey, feel free to speak up your mind ?", isUser: false }
   ])
   const [inputText, setInputText] = useState("")
 
@@ -27,7 +27,7 @@ export default function Component() {
   }
 
   return (
-    <div className="flex flex-col h-[500px] max-w-md mx-auto border rounded-lg overflow-hidden">
+    <div className="flex flex-col h-[400px] max[70%] mx-auto border rounded-lg overflow-hidden">
       <ScrollArea className="flex-grow p-4">
         {messages.map((message, index) => (
           <div
