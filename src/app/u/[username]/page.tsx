@@ -24,6 +24,7 @@ import { ApiResponse } from '@/types/ApiResponse';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { messageSchema } from '@/schemas/messageSchema';
+import ChatBot from '@/components/ui/chatbot';
 
 const specialChar = '||';
 
@@ -134,7 +135,12 @@ export default function SendMessage() {
         </form>
       </Form>
 
-      <div className="space-y-4 my-8">
+<br></br>
+
+      <ChatBot />
+
+
+      {/* <div className="space-y-4 my-8">
         <div className="space-y-2">
           <Button
             onClick={fetchSuggestedMessages}
@@ -166,7 +172,12 @@ export default function SendMessage() {
             )}
           </CardContent>
         </Card>
-      </div>
+      </div> */}
+
+
+
+
+
       <Separator className="my-6" />
       <div className="text-center">
         <div className="mb-4">Get Your Message Board</div>
